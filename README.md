@@ -16,7 +16,7 @@ This projet contains 12 mini projects which are classic algorithms and methods t
 
 * **Rationals.c**  a series of functions which manipulate rational numbers. 
 
-* **Euclide.c**  a set of functions which carry out Euclid's method, then calculate modular multiplicative inverse, which allows us to practice Bézout's theorem. 
+* **Euclide.c**  a set of functions which carry out Euclid's method, then calculate modular multiplicative inverse, which allows us to out into practice Bézout's theorem and Chinese Reminder Theorem.
 
 
 ### Matrixes
