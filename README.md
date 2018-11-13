@@ -9,7 +9,7 @@ This projet contains 11 mini projects which are classic algorithms and methods t
 ## Brief descriptions of each mini project
 
 
-* **Karatsuba.c** a multiplication algorithm(n^1.585) which is faster than normal multiplication method in school(at n^2)
+* **Karatsuba.c** a multiplication algorithm(at n^1.585) which is faster than normal multiplication method in school(at n^2)
 
 * **Archimedes.c**  a method for approximating the value of pi.
 
@@ -17,25 +17,23 @@ This projet contains 11 mini projects which are classic algorithms and methods t
 
 * **Euclide.c**  a set of functions which carry out Euclid's method, then calculate modular multiplicative inverse, which allows us to practice Bézout's theorem. 
 
-* **Matrix.c** a series of functions which manipulate matrix with real numbers. 
+* **Matrix.c** a series of functions which manipulate matrixes with real numbers. 
 
-* **Strassen.c**  Strassen's algorithm to for approximating the value of pi.
+* **Strassen.c**  a multiplication algorithm for matrixes (at n^2.807) which is faster than normal multiplication method(at n^3).
 
-* **Rationals.c**  a series of functions which manipulate rational numbers. 
+* **GaussianElimination.c** an algorithm for solving linear systems.
 
-* **Karatsuba.c** a multiplication algorithm(n^1.585) which is faster than normal multiplication method in school(at n^2)
+* **LU_Decomposition.c**  an algorithm which allow computers to solve linear systems easily.
 
-* **Archimedes.c**  a method for approximating the value of pi.
+* **Polynomial.c** a series of functions which manipulate polynomials.
 
-* **Rationals.c**  a series of functions which manipulate rational numbers. 
+* **Horner.c**  transforms the monomial form of a polynomial into a computationally efficient form.
 
-
-
-
+* **Polynomial_Interpolation.c** implementation of polynomial interpolation.
 
 
 
-## Contributors
 
-Félicité LORDON, Shuting ZHANG and David SARMIENTO
+
+
 
