@@ -1,6 +1,6 @@
 # Algorithms and methods to manipulate numbers, matrixes and functions
 
-This projet contains 11 mini projects which are classic algorithms and methods to manipulate or to solve matrixes, functions.
+This projet contains 12 mini projects which are classic algorithms and methods to manipulate or to solve matrixes, functions.
 
 
 
@@ -8,6 +8,7 @@ This projet contains 11 mini projects which are classic algorithms and methods t
 
 ## Brief descriptions of each mini project
 
+### Numbers
 
 * **Karatsuba.c** a multiplication algorithm(at n^1.585) which is faster than normal multiplication method in school(at n^2)
 
@@ -17,6 +18,9 @@ This projet contains 11 mini projects which are classic algorithms and methods t
 
 * **Euclide.c**  a set of functions which carry out Euclid's method, then calculate modular multiplicative inverse, which allows us to practice Bézout's theorem. 
 
+
+### Matrixes
+
 * **Matrix.c** a series of functions which manipulate matrixes with real numbers. 
 
 * **Strassen.c**  a multiplication algorithm for matrixes (at n^2.807) which is faster than normal multiplication method(at n^3).
@@ -24,6 +28,9 @@ This projet contains 11 mini projects which are classic algorithms and methods t
 * **GaussianElimination.c** an algorithm for solving linear systems.
 
 * **LU_Decomposition.c**  an algorithm which allow computers to solve linear systems easily.
+
+
+### Polynomials
 
 * **Polynomial.c** a series of functions which manipulate polynomials.
 
