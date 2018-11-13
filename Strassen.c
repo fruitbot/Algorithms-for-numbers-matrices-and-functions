@@ -239,7 +239,64 @@ void matrixMatrixProductStrassen(double *C,double *B,double *A,unsigned int k){
 
 
 int main(){
+	
+/*	Cette partie du main servait à tester nos fonctions splitMatrix, composeMatrix et matrixMatrixProductStrassen
 
+	//m=4,n=4, p=1, q=3
+	double A[] = {2,1,1,-3,6,2,5,-8,4,3,3,-9,-2,-2,-5};
+	printMatrix(A, 5, 3);
+	
+	double *B = allocateMatrix(3,2);
+	double *C = allocateMatrix(3,1);
+	double *D = allocateMatrix(2,2);
+	double *E = allocateMatrix(2,1);void scaleMatrix(double alpha, double* A, unsigned int m, unsigned int n){
+	unsigned int i;
+	for(i=0; i<m*n; i++) A[i] *= alpha;
+}
+	printf("Test split\n");
+	splitMatrix(B, C, D, E, A, 5, 3, 3, 2);
+	printMatrix(A, 5, 3);
+printf("B\n");
+	printMatrix(B, 3, 2);
+printf("C\n");
+	printMatrix(C, 3, 1);
+printf("D\n");
+	printMatrix(D, 2, 2);
+printf("E\n");
+	printMatrix(E, 2, 1);
+
+	double V[] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+	printf("Test compose\n");
+	composeMatrix(V, B, C, D, E, 5, 3, 3, 2);
+	printMatrix(V, 5, 3);
+
+	double *Shuting = allocateMatrix(8,8);
+	double *Cecile = allocateMatrix(8,8);
+	double *CS = allocateMatrix(8,8);
+	randomMatrix(Shuting, 8, 8);
+	randomMatrix(Cecile, 8, 8);
+
+	printf("Shuting \n");
+	printMatrix(Shuting, 8, 8);
+	printf("Cecile\n");
+	printMatrix(Cecile, 8, 8);
+
+	printf("Strassen\n");
+	matrixMatrixProductStrassen(CS, Shuting, Cecile, 3);
+	printMatrix(CS, 8, 8);
+
+	printf("Naif\n");
+	matrixMatrixProduct(CS, Shuting, Cecile, 8, 8, 8);
+	printMatrix(CS, 8, 8);
+
+	freeMatrix(B);
+	freeMatrix(C);
+	freeMatrix(D);
+	freeMatrix(E);
+	freeMatrix(Shuting);
+	freeMatrix(Cecile);
+	freeMatrix(CS);
+*/
 	srand(time(NULL));
 
 	unsigned int k = 1 + rand()%10;
