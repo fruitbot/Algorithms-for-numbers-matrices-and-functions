@@ -29,6 +29,8 @@ This projet contains 11 mini projects which are classic algorithms and methods t
 
 * **Horner.c**  transforms the monomial form of a polynomial into a computationally efficient form.
 
+* **Find_Functions_Zero.c**  use bisection method or Newton method to find zero of a function.
+
 * **Polynomial_Interpolation.c** implementation of polynomial interpolation.
 
 
