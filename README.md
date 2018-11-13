@@ -1,6 +1,6 @@
-# Algorithms and methods to manipulate numbers, matrixes and functions
+# Algorithms and methods to manipulate numbers, matrices and functions
 
-This projet contains 12 mini projects which are classic algorithms and methods to manipulate or to solve matrixes, functions.
+This projet contains 12 mini projects which are classic algorithms and methods to manipulate or to solve matrices, functions.
 
 
 
@@ -19,11 +19,11 @@ This projet contains 12 mini projects which are classic algorithms and methods t
 * **Euclide.c**  a set of functions which carry out Euclid's method, then calculate modular multiplicative inverse, which allows us to out into practice Bézout's theorem and Chinese Reminder Theorem.
 
 
-### Matrixes
+### Matrices
 
-* **Matrix.c** a series of functions which manipulate matrixes with real numbers. 
+* **Matrix.c** a series of functions which manipulate matrices with real numbers. 
 
-* **Strassen.c**  a multiplication algorithm for matrixes (at n^2.807) which is faster than normal multiplication method(at n^3).
+* **Strassen.c**  a multiplication algorithm for matrices (at n^2.807) which is faster than normal multiplication method(at n^3).
 
 * **GaussianElimination.c** an algorithm for solving linear systems.
 
