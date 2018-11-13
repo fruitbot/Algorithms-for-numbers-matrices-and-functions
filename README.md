@@ -1,6 +1,6 @@
-# Algorithms and methods to manipulate numbers, matrixs and functions
+# Algorithms and methods to manipulate numbers, matrixes and functions
 
-This projet contains 11 mini projects which are classic algorithms and methods to manipulate or to solve matrixs, functions.
+This projet contains 11 mini projects which are classic algorithms and methods to manipulate or to solve matrixes, functions.
 
 
 
