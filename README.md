@@ -1,6 +1,6 @@
 # Algorithms and methods to manipulate numbers, matrixs and functions
 
-This projet contains 10 mini projects which are classic algorithms and methods to manipulate or to solve matrixs, functions.
+This projet contains 11 mini projects which are classic algorithms and methods to manipulate or to solve matrixs, functions.
 
 
 
@@ -9,21 +9,27 @@ This projet contains 10 mini projects which are classic algorithms and methods t
 ## Brief descriptions of each mini project
 
 
-* **Karatsuba** A multiplication algorithm(n^1.585) which is faster than normal multiplication method in school(at n^2)
+* **Karatsuba.c** a multiplication algorithm(n^1.585) which is faster than normal multiplication method in school(at n^2)
 
-* **Juxtaposed**  By employing other scheduling algorithms, this one aims to find the best partition of machines to allocate a list of tasks of two types.
+* **Archimedes.c**  a method for approximating the value of pi.
 
-* **Greedy Cluster**  analyses the compatibility of different tasks, and cluster the tasks which are interfered the least when they are put on the same machine. 
+* **Rationals.c**  a series of functions which manipulate rational numbers. 
 
-* **PTAS**  Polynomial time approximation scheme, which tries to schedule the tasks in the most optimal way whose time complexity is polynomial instead of exponential.
+* **Euclide.c**  a set of functions which carry out Euclid's method, then calculate modular multiplicative inverse, which allows us to practice Bézout's theorem. 
+
+* **Matrix.c** a series of functions which manipulate matrix with real numbers. 
+
+* **Strassen.c**  Strassen's algorithm to for approximating the value of pi.
+
+* **Rationals.c**  a series of functions which manipulate rational numbers. 
+
+* **Karatsuba.c** a multiplication algorithm(n^1.585) which is faster than normal multiplication method in school(at n^2)
+
+* **Archimedes.c**  a method for approximating the value of pi.
+
+* **Rationals.c**  a series of functions which manipulate rational numbers. 
 
 
-
-### Others
-
-* **tkinter** tkinter is used in this project to generate the graphical interface which shows the allocation clearly and efficiently.
-
-* **Matplotlib** By controling the amount of tasks and machines or the coefficient of compatibility, it compares the validity, efficiency and complexity of different algorithms.
 
 
 
